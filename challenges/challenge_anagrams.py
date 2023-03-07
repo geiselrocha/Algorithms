@@ -26,7 +26,7 @@ def merge(left: list, right: list):
 def is_anagram(first_string, second_string):
     first_sort = ''.join(merge_sort(list(first_string.lower())))
     second_sort = ''.join(merge_sort(list(second_string.lower())))
-    is_anagram = (first_sort == second_sort
-        and bool (first_string)
-        and bool (second_string))
+    is_anagram = (first_sort == second_sort and
+                  bool(first_string) and
+                  bool(second_string))
     return (first_sort, second_sort, is_anagram)
