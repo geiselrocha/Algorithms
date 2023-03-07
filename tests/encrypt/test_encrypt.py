@@ -11,4 +11,3 @@ def test_encrypt_message():
         encrypt_message(["encryptmessagem"], 4)
     assert encrypt_message("encryptmessage", 5) == "yrcne_egassemtp"
     assert encrypt_message("encryptmessage", 2345) == "egassemtpyrcne"
-    
